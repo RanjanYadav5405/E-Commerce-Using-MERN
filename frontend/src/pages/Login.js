@@ -3,8 +3,6 @@ import loginIcons from "../assest/signin.gif";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
 import { Link } from "react-router-dom";
-
-
 const Login = () => {
   const [showPassword, setshowPassword] = useState(false);
   const [data, setData] = useState({
@@ -21,6 +19,11 @@ const Login = () => {
       };
     });
   };
+
+  const handleSubmit=(e)=>{
+    e.preventDefault()
+  }
+
   console.log('user Data:',data)
   return (
     <section id="login">
@@ -29,7 +32,7 @@ const Login = () => {
           <div className="w-20 h-20 mx-auto">
             <img src={loginIcons} alt="login icons" />
           </div>
-          <form className="pt-6">
+          <form className="pt-6 flex flex-col gap-2" onSubmit={handleSubmit}>
             <div className="grid">
               <label>Email</label>
               <div className="bg-slate-100 p-2">
@@ -62,7 +65,7 @@ const Login = () => {
                 </div>
               </div>
               <Link
-                to={"/forgotpassword"}
+                to={"/ForgotPassowrd"}
                 className="block w-fit ml-auto hover:underline hover:text-red-600"
               >
                 Forgot password

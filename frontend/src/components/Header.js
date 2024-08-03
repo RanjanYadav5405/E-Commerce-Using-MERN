@@ -12,7 +12,7 @@ const Header = () => {
         <div className=" h-full container mx-auto flex items-center px-4 justify-between">
           <div className="className">
            <Link to={"/"}> 
-           <Logo w={90} h={50} />
+           <Logo w={110} h={60} />
            </Link>
           </div>
 
