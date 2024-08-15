@@ -16,7 +16,7 @@ const SignUp = () => {
       name : "",
       confirmPassword : "",
       profilePic : "",
-  })
+  })        
   const navigate = useNavigate()
 
   const handleOnChange = (e) =>{
