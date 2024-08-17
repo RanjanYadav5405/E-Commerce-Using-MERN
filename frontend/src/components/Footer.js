@@ -11,7 +11,7 @@ const Footer = () => {
             Dynamic Coding with Amit offers tutorials and resources for coding enthusiasts. Stay updated with the latest tech trends and coding tips.
           </p>
         </div>
-        
+         
         {/* Links Section */}
         <div className='mb-6 md:mb-0 mx-20'>
           <h5 className='font-bold mb-3'>Quick Links</h5>
