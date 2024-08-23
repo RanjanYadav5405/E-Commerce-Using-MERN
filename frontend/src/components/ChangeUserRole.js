@@ -77,5 +77,4 @@ const ChangeUserRole = ({
     </div>
   )
 }
-
 export default ChangeUserRole

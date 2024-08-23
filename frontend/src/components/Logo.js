@@ -10,5 +10,4 @@ const Logo = ({ w, h }) => {
     />
   );
 };
-
 export default Logo;
