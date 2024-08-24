@@ -15,7 +15,7 @@ const HorizontalCardProduct = ({ category, heading }) => {
     const scrollElement = useRef();
 
     const { fetchUserAddToCart } = useContext(Context);
-
+            
     const handleAddToCart = async (e, id) => {
         e.stopPropagation(); // Prevent event from bubbling up to the Link component
         await addToCart(e, id);
