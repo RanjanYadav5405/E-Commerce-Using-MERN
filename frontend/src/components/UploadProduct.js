@@ -248,5 +248,4 @@ const UploadProduct = ({
     </div>
   )
 }
-
 export default UploadProduct
