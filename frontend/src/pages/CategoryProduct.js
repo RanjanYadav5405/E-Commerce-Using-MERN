@@ -3,7 +3,7 @@ import { useLocation, useNavigate, useParams } from 'react-router-dom'
 import productCategory from '../helpers/productCategory'
 import VerticalCard from '../components/VerticalCard'
 import SummaryApi from '../common'
-
+ 
 const CategoryProduct = () => {
     const [data,setData] = useState([])
     const navigate = useNavigate()
@@ -15,7 +15,7 @@ const CategoryProduct = () => {
     const urlCategoryListObject = {}
     urlCategoryListinArray.forEach(el =>{
       urlCategoryListObject[el] = true
-    })
+    })     
 
     const [selectCategory,setSelectCategory] = useState(urlCategoryListObject)
     const [filterCategoryList,setFilterCategoryList] = useState([])
