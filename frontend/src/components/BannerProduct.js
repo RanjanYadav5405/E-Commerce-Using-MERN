@@ -12,7 +12,7 @@ import image4Mobile from '../assest/banner/img4_mobile.jpg'
 import image5Mobile from '../assest/banner/img5_mobile.png'
 
 import { FaAngleRight, FaAngleLeft } from "react-icons/fa6";
-
+          
 const BannerProduct = () => {
     const [currentImage, setCurrentImage] = useState(0)
 
