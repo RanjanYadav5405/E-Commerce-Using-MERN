@@ -8,7 +8,7 @@ const AdminProductCard = ({
     fetchdata
 }) => {
     const [editProduct,setEditProduct] = useState(false)
-
+      
   return (
     <div className='bg-white p-4 rounded '>
        <div className='w-40'>
