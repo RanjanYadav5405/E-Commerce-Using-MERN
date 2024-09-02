@@ -61,5 +61,4 @@ const VerticalCard = ({loading,data = []}) => {
     </div>
   )
 }
-
 export default VerticalCard

@@ -44,5 +44,4 @@ const AdminProductCard = ({
     </div>
   )
 }
-
 export default AdminProductCard

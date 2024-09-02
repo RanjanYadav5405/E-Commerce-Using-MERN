@@ -122,5 +122,4 @@ const VerticalCardProduct = ({ category, heading }) => {
         </div>
     );
 };
-
 export default VerticalCardProduct;
