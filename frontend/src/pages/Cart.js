@@ -10,7 +10,7 @@ const Cart = () => {
     const [loading,setLoading] = useState(false)
     const context = useContext(Context)
     const loadingCart = new Array(4).fill(null)
-
+         
 
     const fetchData = async() =>{
         
