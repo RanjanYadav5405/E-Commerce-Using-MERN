@@ -16,6 +16,6 @@ const Success = () => {
         See Order
       </Link>
     </div>
-  );
+  );             
 };
 export default Success;
