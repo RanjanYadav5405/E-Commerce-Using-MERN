@@ -17,7 +17,7 @@ const Cancel = () => {
         Go To Cart
       </Link>
     </div>
-  );
+  );         
 };
 
 export default Cancel;
