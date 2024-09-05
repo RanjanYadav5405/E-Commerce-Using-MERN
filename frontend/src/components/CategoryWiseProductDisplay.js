@@ -93,5 +93,4 @@ const CategroyWiseProductDisplay = ({category, heading}) => {
     </div>
   )
 }
-
 export default CategroyWiseProductDisplay

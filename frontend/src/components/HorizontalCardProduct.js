@@ -123,5 +123,4 @@ const HorizontalCardProduct = ({ category, heading }) => {
         </div>
     );
 };
-
 export default HorizontalCardProduct;
