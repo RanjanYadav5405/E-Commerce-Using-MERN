@@ -15,7 +15,7 @@ const AllProducts = () => {
 
     setAllProduct(dataResponse?.data || [])
   }
-
+                   
   useEffect(()=>{
     fetchAllProduct()
   },[])
