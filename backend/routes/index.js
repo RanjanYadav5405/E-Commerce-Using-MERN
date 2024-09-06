@@ -64,5 +64,4 @@ router.get("/all-order",authToken,allOrderController)
 
 
 
-
 module.exports = router

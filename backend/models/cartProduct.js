@@ -13,5 +13,4 @@ const addToCart = mongoose.Schema({
 
 
 const addToCartModel = mongoose.model("addToCart",addToCart)
-
 module.exports = addToCartModel
