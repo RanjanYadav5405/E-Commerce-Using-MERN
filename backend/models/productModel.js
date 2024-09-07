@@ -12,7 +12,7 @@ const productSchema = mongoose.Schema({
     timestamps : true
 })
 
-
+              
 const productModel = mongoose.model("product",productSchema)
 
 module.exports = productModel
