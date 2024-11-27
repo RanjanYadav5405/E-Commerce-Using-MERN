@@ -22,5 +22,4 @@ const addToCartViewProduct = async(req,res)=>{
         })
     }
 }
-
 module.exports =  addToCartViewProduct
