@@ -2,7 +2,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import App from '../App';
 import Home from '../pages/Home';
 import Login from '../pages/Login';
-import ForgotPassword from '../pages/ForgotPassword'; // Corrected from 'ForgotPassowrd' to 'ForgotPassword'
+import ForgotPassword from '../pages/ForgotPassword';
 import SignUp from '../pages/SignUp';
 import AdminPanel from '../pages/AdminPanel';
 import AllUsers from '../pages/AllUsers';
@@ -15,6 +15,7 @@ import Success from '../pages/Success';
 import Cancel from '../pages/Cancel';
 import OrderPage from '../pages/OrderPage';
 import AllOrder from '../pages/AllOrder';
+import UserDashboard from '../pages/UserDashboard'; // Import UserDashboard component
 
 const router = createBrowserRouter([
     {
@@ -31,7 +32,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "forgot-password",
-                element: <ForgotPassword /> // Corrected from 'ForgotPassowrd' to 'ForgotPassword'
+                element: <ForgotPassword />
             },
             {
                 path: "sign-up",
@@ -46,11 +47,11 @@ const router = createBrowserRouter([
                 element: <ProductDetails />
             },
             {
-                path: 'cart',
+                path: "cart",
                 element: <Cart />
             },
             {
-                path: 'success',
+                path: "success",
                 element: <Success />
             },
             {
@@ -62,7 +63,7 @@ const router = createBrowserRouter([
                 element: <SearchProduct />
             },
             {
-                path: 'order',
+                path: "order",
                 element: <OrderPage />
             },
             {
@@ -82,6 +83,10 @@ const router = createBrowserRouter([
                         element: <AllOrder />
                     }
                 ]
+            },
+            {
+                path: "user-dashboard/profile",
+                element: <UserDashboard /> // Add UserDashboard route here
             }
         ]
     }
